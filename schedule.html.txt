@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket News - Schedule</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="schedule.html">Schedule</a> |
+    <a href="ranking.html">Ranking</a> |
+    <a href="news.html">News</a>
+  </nav>
+  <h1>Upcoming Cricket Matches</h1>
+  <ul>
+    <li>India vs Pakistan - 5 October 2025</li>
+    <li>Australia vs England - 7 October 2025</li>
+    <li>South Africa vs New Zealand - 9 October 2025</li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket News - Rankings</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="schedule.html">Schedule</a> |
+    <a href="ranking.html">Ranking</a> |
+    <a href="news.html">News</a>
+  </nav>
+  <h1>ICC Cricket Rankings</h1>
+  <ol>
+    <li>India</li>
+    <li>Australia</li>
+    <li>England</li>
+    <li>Pakistan</li>
+    <li>South Africa</li>
+  </ol>
+</body>
+</html>

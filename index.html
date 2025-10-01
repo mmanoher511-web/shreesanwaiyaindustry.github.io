@@ -24,8 +24,44 @@
 </body>
 </html>
 <section class="images">
-   <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66" alt="Cricket Player" />
+   <section class="images">
+  <div class="img-box">
+    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66" alt="Cricket Batsman">
+  </div>
+  <div class="img-box">
+    <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Cricket Bowler">
+  </div>
+  <div class="img-box">
+    <img src="https://images.unsplash.com/photo-1622630998477-66f564b8933a" alt="Cricket Stadium Crowd">
+  </div>
 </section>
+
+<style>
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .images .img-box {
+    flex: 1 1 250px;  /* हर image approx 250px चौड़ी होगी */
+    max-width: 300px;
+  }
+  .images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+  .images img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+</section>
+
 
 
 

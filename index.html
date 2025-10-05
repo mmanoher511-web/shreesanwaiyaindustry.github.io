@@ -68,9 +68,80 @@
 <p>3rd T20I, India in Australia — 2 नवंबर 2025</p>
   }
   }
+       <!-- Virat Kohli Profile Card (copyright-free text) -->
+<section class="player-card">
+  <div class="card">
+    <div class="photo">
+      <!-- Replace src with a copyright-free image URL from Unsplash/Pexels or your own image file -->
+      <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Cricket player" />
+    </div>
+
+    <div class="content">
+      <h2>Virat Kohli</h2>
+      <p class="role">Indian Cricketer • Right-handed batter</p>
+
+      <p class="bio">
+        Virat Kohli is known for his aggressive batting style, consistency and strong chase temperament.
+        He has been a leading member of the Indian batting lineup across formats and is admired for his fitness and dedication.
+      </p>
+
+      <ul class="quick-stats">
+        <li><strong>Role:</strong> Top-order batter</li>
+        <li><strong>Batting style:</strong> Right-handed</li>
+        <li><strong>Teams:</strong> India, Domestic / IPL teams</li>
+      </ul>
+
+      <p class="note">
+        <em>Note:</em> This is a short, original summary for informational purposes. For exact career statistics and latest news, check official sources.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Styles (paste inside &lt;head&gt; or a CSS file) -->
+<style>
+  .player-card { max-width:900px; margin:30px auto; padding:0 15px; }
+  .card {
+    display:flex;
+    gap:20px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border-radius:12px;
+    padding:18px;
+    align-items:center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  .card .photo {
+    flex: 0 0 180px;
+  }
+  .card .photo img {
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+    display:block;
+    border: 2px solid rgba(255,255,255,0.06);
+  }
+  .card .content { flex:1; }
+  .card h2 { margin:0 0 6px 0; color:#ffdf5d; font-size:22px; }
+  .role { margin:0 0 10px 0; color:#dcdcdc; font-weight:600; }
+  .bio { margin:0 0 12px 0; line-height:1.5; color:#e9e9e9; }
+  .quick-stats { list-style:none; padding:0; margin:0 0 12px 0; display:flex; gap:15px; flex-wrap:wrap; }
+  .quick-stats li { background: rgba(0,0,0,0.2); padding:8px 10px; border-radius:6px; font-size:14px; }
+  .note { font-size:13px; color:#c7c7c7; }
+  /* Responsive */
+  @media (max-width:640px){
+    .card { flex-direction:column; text-align:center; }
+    .card .photo { width:60%; margin:0 auto; }
+    .card .photo img { height:220px; }
+  }
+</style>
+
 </style>
 
 </section>
+
 
 
 
